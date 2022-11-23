@@ -17,6 +17,8 @@ spec:
           tag: latest
         ingress:
           host: devopsparadox.argocdtest
+        service:
+          type: LoadBalancer
       version: v3
   destination:
     namespace: sandbox
