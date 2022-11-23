@@ -1,0 +1,4 @@
+apiVersion: v1
+description: Sandbox environment
+name: sandbox
+version: "1.0.0"
